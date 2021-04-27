@@ -8,6 +8,8 @@ const cors = require('cors');
 
 // routers
 const authRoutes = require('../auth/routes');
+const notFound = require('../src/error-handlers/404');
+const internalError = require('../src/error-handlers/500');
 
 // config dotenv
 dotenv.config();
@@ -26,6 +28,10 @@ app.use(express.urlencoded({ extended: true }));
 
 // use auth router
 app.use(authRoutes);
+
+// error handling
+app.use('*', notFound);
+app.use(internalError);
 
 // export module to index.js
 module.exports = {

@@ -40,8 +40,8 @@ try {
     throw new Error('Invalid User');
   }
 } catch (error) {
-  next(error);
-  // res.status(403).send('Invalid Login');
+  // next(error);
+  res.status(403).send('Invalid Login');
 }
 };
 
