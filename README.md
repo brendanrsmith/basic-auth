@@ -29,4 +29,4 @@
 
 #### UML / Application Wiring Diagram
 
-![UML](UML.jpg)
+![UML](uml.jpg)
