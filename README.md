@@ -8,7 +8,7 @@
 
 - [ci/cd](https://github.com/brendigler/basic-auth/actions)
 - [server url](https://brsmith-basic-auth.herokuapp.com/)
-- [Pull Request]()
+- [Pull Request](https://github.com/brendigler/basic-auth/pull/1)
 
 ### Setup
 
